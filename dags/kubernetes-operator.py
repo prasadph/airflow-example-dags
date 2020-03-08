@@ -25,7 +25,7 @@ else:
     in_cluster=True
     config_file=None
 
-dag = DAG('example_kubernetes_pod',
+dag = DAG('example_kubernetes_pod2',
           schedule_interval='@once',
           default_args=default_args)
 
